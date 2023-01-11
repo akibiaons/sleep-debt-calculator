@@ -31,9 +31,16 @@ const getSleepHours = day => {
 //In the code above I wrote a function to get the number of hours of sleep for each night.
 // Now we need to get the total sleep hours per week, ideal sleep hours, and calculate any sleep debt...
 // Below I will declare a new function with no parameters named getActualSleepHours
-const getActualSleepHours = () => {
+const getActualSleepHours = () => 
+    getSleepHours('monday') +
+    getSleepHours('tuesday') + 
+    getSleepHours('wednesday') +
+    getSleepHours('thursday') +
+    getSleepHours('friday') +
+    getSleepHours('saturday') +
+    getSleepHours('sunday');
 
-}
+console.log(getSleepHours('monday'));
 // For step 4 we will call the getSleepHours function within the getActualSleepHours add them all together and return a result
 
 
