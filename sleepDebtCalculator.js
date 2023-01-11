@@ -51,7 +51,6 @@ const getIdealSleepHours = () => {
     return idealHours * 7;
 };
 // Step five above is done, we now have calculated all the sleep hours per day and returned a weekly value.
-
 /* 
 Now is step six, which will require that I use the actual and ideal hours to calculate sleep debt. 
 To do this we must:
@@ -60,7 +59,11 @@ To do this we must:
 3.) Create a third variable within the function block to get idealSleepHours 
 4.) Use interpolation to calculate what sleep debt there is, and if the user must rest more or use an alarm to wake up on time.
 */
-
+// STEP SIX BELOW 
+const calculateSleepDebt = () => {
+    const actualSleepHours = getActualSleepHours();
+    const idealSleepHours = getIdealSleepHours();
+};
 
 
 
