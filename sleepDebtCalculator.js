@@ -28,7 +28,8 @@ const getSleepHours = day => {
             return 'Error!'
     }
 };
-// In the code above I wrote a 
+//In the code above I wrote a function to get the number of hours of sleep for each night.
+// Now we need to get the total sleep hours per week, ideal sleep hours, and calculate any sleep debt...
 
 /*
     if(day === 'monday') {
