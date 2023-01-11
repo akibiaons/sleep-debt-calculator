@@ -23,7 +23,7 @@ const getSleepHours = day => {
     } 
     else if (day === 'Sunday') {
       return 8;
-    } else {
+    } else { //When I originally did the if and if else statements I never added the last else statement, this could have been what was causing the console to log NAN.
 
     } // In the revised code I am using a switch statement or whatever...
   };
