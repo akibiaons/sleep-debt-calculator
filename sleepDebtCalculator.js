@@ -4,27 +4,27 @@ To do this I will declare a function that returns any given nights number of hou
 const getSleepHours = day => {
     switch(day) {
         case 'monday':
-            return 8
+            return 5
             break;
         case 'tuesday':
-            return 7
+            return 5
             break;
         case 'wednesday':
-            return 8
+            return 4
             break;
         case 'thursday':
-            return 8
+            return 5
             break;
         case 'friday':
-            return 7
+            return 4
             break;
         case 'saturday':
-            return 9
+            return 8
             break;
         case 'sunday':
             return 8
             break;            
-        default: 
+        default: //using default at the end of the switch statement is like the else statement in my original writeup.
             return 'Error!'
     }
 };
@@ -41,9 +41,14 @@ const getActualSleepHours = () =>
     getSleepHours('sunday');
 
 console.log(getSleepHours('friday'));
+console.log(getActualSleepHours());
 // For step 4 we will call the getSleepHours function within the getActualSleepHours add them all together and return a result
 
-
+// For step 5 we will now declare a function named getIdealSleepHours and within the function's block I will declare a variable named ideal hours
+// idealHours will have it's value set to the ideal amount of hours I would like to sleep per night. Finally I need to return the idealHours with a multiple of 7 to track the hours of sleep per week.
+getIdealSleepHours = () => {
+    
+}
 
 
 

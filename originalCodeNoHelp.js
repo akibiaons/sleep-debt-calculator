@@ -41,7 +41,7 @@ const getSleepHours = day => {
     + getSleepHours('Saturday')
     + getSleepHours('Sunday') 
   };
-  
+  // In this original try, I did not do an implicit return so that must've not helped the console.log load correctly...
   const getIdealSleepHours = () => {
     const idealHours = 7;
     return idealHours * 7;
