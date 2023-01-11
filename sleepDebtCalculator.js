@@ -7,7 +7,7 @@ const getSleepHours = day => {
             return 8
             break;
         case 'tuesday':
-            return 8
+            return 7
             break;
         case 'wednesday':
             return 8
@@ -16,10 +16,10 @@ const getSleepHours = day => {
             return 8
             break;
         case 'friday':
-            return 8
+            return 7
             break;
         case 'saturday':
-            return 8
+            return 9
             break;
         case 'sunday':
             return 8
@@ -40,7 +40,7 @@ const getActualSleepHours = () =>
     getSleepHours('saturday') +
     getSleepHours('sunday');
 
-console.log(getSleepHours('monday'));
+console.log(getSleepHours('friday'));
 // For step 4 we will call the getSleepHours function within the getActualSleepHours add them all together and return a result
 
 

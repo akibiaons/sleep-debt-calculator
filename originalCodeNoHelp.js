@@ -5,17 +5,23 @@ const getSleepHours = day => {
     // Step two is to get our new function to accept the day as an argument and return the number of hours slept per night.
     if (day === 'Monday') {
       return 6;
-    } else if (day === 'Tuesday') {
+    } 
+    else if (day === 'Tuesday') {
       return 8;
-    } else if (day === 'Wednesday') {
+    } 
+    else if (day === 'Wednesday') {
       return 4;
-    } else if (day === 'Thursday') {
+    } 
+    else if (day === 'Thursday') {
       return 5;
-    } else if (day === 'Friday') {
+    } 
+    else if (day === 'Friday') {
       return 8;
-    } else if (day === 'Saturday') {
+    } 
+    else if (day === 'Saturday') {
       return 8;
-    } else if (day === 'Sunday') {
+    } 
+    else if (day === 'Sunday') {
       return 8;
     } else {
 
