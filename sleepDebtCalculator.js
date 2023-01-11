@@ -90,18 +90,6 @@ Step 7 will involve using if / else statements to output three of the following 
 */
 // Step 8 will utilize the amount of time a user is over or under their idealSleepHours!
 
-
-
-
-
-
-
-
-
-
-
-
-
 // ======================================================================//
 /*
     if(day === 'monday') {
