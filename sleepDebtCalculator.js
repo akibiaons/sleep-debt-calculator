@@ -46,9 +46,11 @@ console.log(getActualSleepHours());
 
 // For step 5 we will now declare a function named getIdealSleepHours and within the function's block I will declare a variable named ideal hours
 // idealHours will have it's value set to the ideal amount of hours I would like to sleep per night. Finally I need to return the idealHours with a multiple of 7 to track the hours of sleep per week.
-getIdealSleepHours = () => {
-    
-}
+const getIdealSleepHours = () => {
+    let idealHours = 8;
+    return idealHours * 7;
+};
+// Step five above is done, we now have calculated all the sleep hours per day and returned a weekly value.
 
 
 
