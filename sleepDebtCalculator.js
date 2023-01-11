@@ -64,6 +64,12 @@ const calculateSleepDebt = () => {
     const actualSleepHours = getActualSleepHours();
     const idealSleepHours = getIdealSleepHours();
 };
+/*
+Step 7 will involve using if / else statements to output three of the following outcomes for users
+1.) actualSleepHours = idealSleepHours 'Great job you slept enough and on time!'
+2.) actualSleepHours > idealSleepHours 'You got a lot of rest, try to set an alarm or increase idealSleepHours!'
+3.) actualSleepHours < idealSleepHours 'You must get more rest, try getting ready for bed an hour before and use undwinding methods..'
+*/
 
 
 
