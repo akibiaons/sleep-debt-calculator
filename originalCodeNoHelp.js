@@ -31,7 +31,7 @@ const getSleepHours = day => {
   // The log above should print the # of hours assigned to tuesday
   
   
-  // Below is a function of the sleep hours that have actually been slept...
+  //Below is a function of the sleep hours that have actually been slept...
   const getActualSleepHours = () => {
     getSleepHours('Monday') 
     + getSleepHours('Tuesday')

@@ -59,7 +59,7 @@ To do this we must:
 3.) Create a third variable within the function block to get idealSleepHours 
 4.) Use interpolation to calculate what sleep debt there is, and if the user must rest more or use an alarm to wake up on time.
 */
-// STEP SIX BELOW 
+//STEP SIX BELOW 
 const calculateSleepDebt = () => {
     const actualSleepHours = getActualSleepHours();
     const idealSleepHours = getIdealSleepHours();
