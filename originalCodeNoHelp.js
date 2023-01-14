@@ -64,7 +64,7 @@ const getSleepHours = day => {
     } else if (actualSleepHours > idealSleepHours) {
         console.log('You got ' + (idealSleepHours - actualSleepHours) + ' extra hours of sleep. Use an alarm to wake up in a timley manner.');
     } else (actualSleepHours < idealSleepHours); {
-        console.log('You got ' + (idealSleepHours - actualSleepHours) + ' hours less sleep than you needed this week. Go get some rest.');
+        console.log('You got ' + (idealSleepHours - actualSleepHours) + ' hours of sleep this week. Go get some rest.');
     }
   };
   
